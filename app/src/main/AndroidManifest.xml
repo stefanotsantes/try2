@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Try2">
         <activity
+            android:name=".SecondActivity"
+            android:exported="true" />
+        <activity
             android:name=".login"
             android:exported="true"
             android:label="@string/title_activity_login"
